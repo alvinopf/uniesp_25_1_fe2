@@ -12,7 +12,7 @@ def main():
     
     pessoas = []
 
-    for i in range(3):
+    for i in range(15):
         print(f"pessoa {i + 1}")
         altura = float(input("Digite a sua altura em metros (ex: 1.80): ").strip().replace(",","."))
         genero = input("Digite o seu genero (apenas M ou F): ").strip().upper()
